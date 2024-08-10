@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C8C61212C61606600811756 /* GameTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C61202C61606600811756 /* GameTimeApp.swift */; };
+		1C8C61232C61606600811756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C61222C61606600811756 /* ContentView.swift */; };
+		1C8C61252C61606800811756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C8C61242C61606800811756 /* Assets.xcassets */; };
+		1C8C61282C61606800811756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C8C61272C61606800811756 /* Preview Assets.xcassets */; };
+		1C8C612F2C616D0800811756 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C612E2C616D0800811756 /* Colours.swift */; };
+		1C8C61312C62126F00811756 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C61302C62126F00811756 /* Buttons.swift */; };
+		1C8C61352C621C3500811756 /* Kufam-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C8C61342C621C3500811756 /* Kufam-VariableFont_wght.ttf */; };
+		1C8C61382C621CD000811756 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C61372C621CD000811756 /* Extensions.swift */; };
+		1C8C613C2C62206D00811756 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C613B2C62206D00811756 /* InfoView.swift */; };
+		1C8C613E2C6223B900811756 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C613D2C6223B900811756 /* Enums.swift */; };
+		1C8C61402C6231FE00811756 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C613F2C6231FE00811756 /* StatsView.swift */; };
+		1C8C61432C62393C00811756 /* HealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C61422C62393C00811756 /* HealthKit.swift */; };
+		1CA38C102C65E0FC0006C2F3 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA38C0F2C65E0FC0006C2F3 /* GameView.swift */; };
+		1CA38C122C661E980006C2F3 /* ViewGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA38C112C661E980006C2F3 /* ViewGamesView.swift */; };
+		1CF27FAA2C627BA900DC985E /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF27FA92C627BA900DC985E /* SummaryView.swift */; };
+		1CF27FAC2C62996400DC985E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF27FAB2C62996400DC985E /* HomeView.swift */; };
+		1CF27FAE2C6350FD00DC985E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF27FAD2C6350FD00DC985E /* Game.swift */; };
+		1CF27FB02C6355D000DC985E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF27FAF2C6355D000DC985E /* Time.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C8C611D2C61606600811756 /* GameTime Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameTime Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8C61202C61606600811756 /* GameTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimeApp.swift; sourceTree = "<group>"; };
+		1C8C61222C61606600811756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C8C61242C61606800811756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C8C61272C61606800811756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C8C612E2C616D0800811756 /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		1C8C61302C62126F00811756 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		1C8C61342C621C3500811756 /* Kufam-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kufam-VariableFont_wght.ttf"; path = "../../../../../../../../Downloads/Baloo_2,Kufam/Kufam/Kufam-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		1C8C61362C621C9400811756 /* GameTime-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GameTime-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1C8C61372C621CD000811756 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1C8C613B2C62206D00811756 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		1C8C613D2C6223B900811756 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		1C8C613F2C6231FE00811756 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		1C8C61412C6238AE00811756 /* GameTime Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GameTime Watch App.entitlements"; sourceTree = "<group>"; };
+		1C8C61422C62393C00811756 /* HealthKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit.swift; sourceTree = "<group>"; };
+		1CA38C0F2C65E0FC0006C2F3 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		1CA38C112C661E980006C2F3 /* ViewGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGamesView.swift; sourceTree = "<group>"; };
+		1CF27FA92C627BA900DC985E /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		1CF27FAB2C62996400DC985E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1CF27FAD2C6350FD00DC985E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		1CF27FAF2C6355D000DC985E /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C8C611A2C61606600811756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8C61142C61606600811756 = {
+			isa = PBXGroup;
+			children = (
+				1C8C611F2C61606600811756 /* GameTime Watch App */,
+				1C8C611E2C61606600811756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C8C611E2C61606600811756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C611D2C61606600811756 /* GameTime Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C8C611F2C61606600811756 /* GameTime Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C61412C6238AE00811756 /* GameTime Watch App.entitlements */,
+				1C8C61362C621C9400811756 /* GameTime-Watch-App-Info.plist */,
+				1C8C61332C621C2700811756 /* Fonts */,
+				1C8C61202C61606600811756 /* GameTimeApp.swift */,
+				1C8C61372C621CD000811756 /* Extensions.swift */,
+				1C8C613D2C6223B900811756 /* Enums.swift */,
+				1C8C613A2C62203500811756 /* Views */,
+				1C8C61392C621E6000811756 /* Main */,
+				1C8C61322C62127500811756 /* Model */,
+				1C8C61242C61606800811756 /* Assets.xcassets */,
+				1C8C61262C61606800811756 /* Preview Content */,
+			);
+			path = "GameTime Watch App";
+			sourceTree = "<group>";
+		};
+		1C8C61262C61606800811756 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C61272C61606800811756 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C8C61322C62127500811756 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C61302C62126F00811756 /* Buttons.swift */,
+				1CF27FAD2C6350FD00DC985E /* Game.swift */,
+				1C8C612E2C616D0800811756 /* Colours.swift */,
+				1C8C61422C62393C00811756 /* HealthKit.swift */,
+				1CF27FAF2C6355D000DC985E /* Time.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C8C61332C621C2700811756 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C61342C621C3500811756 /* Kufam-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1C8C61392C621E6000811756 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C61222C61606600811756 /* ContentView.swift */,
+				1CF27FAB2C62996400DC985E /* HomeView.swift */,
+				1CA38C112C661E980006C2F3 /* ViewGamesView.swift */,
+				1CA38C0F2C65E0FC0006C2F3 /* GameView.swift */,
+				1CF27FA92C627BA900DC985E /* SummaryView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1C8C613A2C62203500811756 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C8C613B2C62206D00811756 /* InfoView.swift */,
+				1C8C613F2C6231FE00811756 /* StatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C8C611C2C61606600811756 /* GameTime Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C8C612B2C61606800811756 /* Build configuration list for PBXNativeTarget "GameTime Watch App" */;
+			buildPhases = (
+				1C8C61192C61606600811756 /* Sources */,
+				1C8C611A2C61606600811756 /* Frameworks */,
+				1C8C611B2C61606600811756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GameTime Watch App";
+			productName = "GameTime Watch App";
+			productReference = 1C8C611D2C61606600811756 /* GameTime Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C8C61152C61606600811756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1C8C611C2C61606600811756 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 1C8C61182C61606600811756 /* Build configuration list for PBXProject "GameTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C8C61142C61606600811756;
+			productRefGroup = 1C8C611E2C61606600811756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C8C611C2C61606600811756 /* GameTime Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C8C611B2C61606600811756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8C61282C61606800811756 /* Preview Assets.xcassets in Resources */,
+				1C8C61252C61606800811756 /* Assets.xcassets in Resources */,
+				1C8C61352C621C3500811756 /* Kufam-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C8C61192C61606600811756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8C61382C621CD000811756 /* Extensions.swift in Sources */,
+				1C8C61232C61606600811756 /* ContentView.swift in Sources */,
+				1CA38C122C661E980006C2F3 /* ViewGamesView.swift in Sources */,
+				1C8C612F2C616D0800811756 /* Colours.swift in Sources */,
+				1CF27FAC2C62996400DC985E /* HomeView.swift in Sources */,
+				1C8C61432C62393C00811756 /* HealthKit.swift in Sources */,
+				1C8C61212C61606600811756 /* GameTimeApp.swift in Sources */,
+				1CA38C102C65E0FC0006C2F3 /* GameView.swift in Sources */,
+				1CF27FB02C6355D000DC985E /* Time.swift in Sources */,
+				1C8C61402C6231FE00811756 /* StatsView.swift in Sources */,
+				1CF27FAE2C6350FD00DC985E /* Game.swift in Sources */,
+				1C8C613E2C6223B900811756 /* Enums.swift in Sources */,
+				1CF27FAA2C627BA900DC985E /* SummaryView.swift in Sources */,
+				1C8C613C2C62206D00811756 /* InfoView.swift in Sources */,
+				1C8C61312C62126F00811756 /* Buttons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C8C61292C61606800811756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C8C612A2C61606800811756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1C8C612C2C61606800811756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GameTime Watch App/GameTime Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GameTime Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AZG29UUAL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GameTime-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GameTime;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .gameTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		1C8C612D2C61606800811756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GameTime Watch App/GameTime Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GameTime Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AZG29UUAL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GameTime-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GameTime;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .gameTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C8C61182C61606600811756 /* Build configuration list for PBXProject "GameTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C8C61292C61606800811756 /* Debug */,
+				1C8C612A2C61606800811756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C8C612B2C61606800811756 /* Build configuration list for PBXNativeTarget "GameTime Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C8C612C2C61606800811756 /* Debug */,
+				1C8C612D2C61606800811756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C8C61152C61606600811756 /* Project object */;
+}
